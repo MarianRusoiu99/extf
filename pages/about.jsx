@@ -8,7 +8,7 @@ import PageHeading from '../components/PageHeading';
 import SectionHeading from '../components/SectionHeading';
 import TeamSlider from '../components/Slider/TeamSlider';
 import Spacing from '../components/Spacing';
-//ceva
+
 export default function About() {
   const funfaceData = [
     {
