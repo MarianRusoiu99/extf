@@ -18,7 +18,7 @@ import VideoModal from '../components/VideoModal';
 import Hero5 from '../components/Hero/Hero5';
 
 export default function Home() {
-  // Hero Social Links
+  // Hero Social Linksasd asd as das
   const heroSocialLinks = [
     {
       name: 'Behance',
