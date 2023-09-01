@@ -16,6 +16,7 @@ import TimelineSlider from '../components/Slider/TimelineSlider';
 import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
 import Hero5 from '../components/Hero/Hero5';
+import Button from '../components/Button';
 
 export default function Home() {
   // Hero Social Linksasd asd asdsdsad as das
@@ -99,7 +100,7 @@ export default function Home() {
                 <SectionHeading
                   title="Services we can help you with"
                   subtitle="What Can We Do"
-                  btnText="See All Services"
+                  btnText=""
                   btnLink="/service"
                 />
                 <Spacing lg="90" md="45" />
@@ -110,7 +111,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="UI/UX design"
-                      link="/service/service-details"
+                      // link="/service/service-details"
                       src="/images/services/ux-design.jpg"
                       alt="Service"
                     />
@@ -120,7 +121,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Web Development"
-                      link="/service/service-details"
+                      // link="/service/service-details"
                       src="/images/services/webdev.jpg"
                       alt="Service"
                     />
@@ -129,7 +130,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Mobile Development"
-                      link="/service/service-details"
+                      // link="/service/service-details"
                       src="/images/services/mobile.jpg"
                       alt="Service"
                     />
@@ -139,7 +140,7 @@ export default function Home() {
                   <Div className="col-lg-3 col-sm-6">
                     <Card
                       title="Consultancy"
-                      link="/service/service-details"
+                      // link="/service/service-details"
                       src="/images/services/consultancy.jpg"
                       alt="Service"
                     />
@@ -165,6 +166,11 @@ export default function Home() {
             <Spacing lg="90" md="45" />
           </Div>
           <PortfolioSlider />
+          <Spacing lg="50" md="50" />
+          <div className='widthCenter'>
+          <Button btnLink = "/projects" btnText={"See all projects"} />
+          </div>
+          
         </Div>
         {/* End Portfolio Section */}
 
@@ -208,7 +214,7 @@ export default function Home() {
         {/* End Video Block Section */}
 
         {/* Start Team Section */}
-        <Spacing lg="145" md="80" />
+        {/* <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
             title="Awesome team <br/>members"
@@ -218,7 +224,7 @@ export default function Home() {
           <Spacing lg="85" md="45" />
           <TeamSlider />
         </Div>
-        <Spacing lg="150" md="80" />
+        <Spacing lg="150" md="80" /> */}
         {/* End Team Section */}
 
         {/* Start Testimonial Section */}
