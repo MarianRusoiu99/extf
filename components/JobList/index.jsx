@@ -9,7 +9,7 @@ export default function JobList() {
       details:"On-site | Contract-Based | Part-Time",
       description:
         'Această poziție presupune dezvoltarea și personalizarea de cabine foto virtuale respectând cerințele clienților. De asemenea, poziția presupune dezvoltarea de noi pagini web pentru site-ul de prezentare care este realizat în WordPress.',
-      imgUrl: '/images/jobsimages/a.jpg',
+      imgUrl: '/images/jobsImages/a.jpg',
       href: '/careers/job-details',
     },
     {
@@ -17,7 +17,7 @@ export default function JobList() {
       details:"On-site | Contract-Based | Part-Time",
       description:
         'Aceasta pozitie presupune cercetarea si dezvoltarea unei strategii de marketing pentru produse si sevicii. De asemenea, pozitia presupune sprijinirea clientilor cu informatii despre produsele si serviciile companiei.',
-      imgUrl: '/images/jobsimages/b.jpg',
+      imgUrl: '/images/jobsImages/b.jpg',
       href: '/careers/job-details',
     },
     {
@@ -25,7 +25,7 @@ export default function JobList() {
       details:"On-site | Contract-Based | Part-Time",
       description:
         'We are a small, but enthusiast IT Startup, searching for a new Assistant Manager to join our team.',
-      imgUrl: '/images/jobsimages/c.jpg',
+      imgUrl: '/images/jobsImages/c.jpg',
       href: '/careers/job-details',
     },
   ];
