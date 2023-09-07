@@ -68,8 +68,10 @@ export default function JobList() {
                 </svg>
               </span>
               <Div className="cs-iconbox_in">
+                
                 <h2 className="cs-iconbox_title">{item.title}</h2>
-                <Div className="cs-iconbox_subtitle">{item.subtitle}</Div>
+                <Div className="cs-iconbox_subtitle">{item.details}</Div>
+                <Div className="cs-iconbox_subtitle">{item.description}</Div>
               </Div>
             </>
           </Link>

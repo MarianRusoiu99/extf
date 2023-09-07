@@ -168,7 +168,9 @@ export default function Home() {
           <PortfolioSlider />
           <Spacing lg="50" md="50" />
           <div className='widthCenter'>
+          
           <Button btnLink = "/projects" btnText={"See all projects"} />
+          <Spacing lg="150" md="50" />
           </div>
           
         </Div>
@@ -259,7 +261,7 @@ export default function Home() {
 
         {/* Start MovingText Section */}
         <Spacing lg="125" md="70" />
-        <MovingText text="Our reputed world wide partners" />
+        <MovingText text="C# - PHP - Python - SQL - Javascript - HTML & CSS - ASP.NET - .NET Framework - .NET Core - Xamarin - jQuery - AngularJS - Angular X - React & Redux - VueJS & Vuex" />
         <Spacing lg="105" md="70" />
         {/* End MovingText Section */}
 
@@ -276,7 +278,7 @@ export default function Home() {
             title="Let’s disscuse make <br />something <i>cool</i> together"
             btnText="Apply For Meeting"
             btnLink="/contact"
-            bgSrc="/images/cta_bg.jpeg"
+            bgSrc="/images/cta/a.png"
           />
         </Div>
         {/* End CTA Section */}

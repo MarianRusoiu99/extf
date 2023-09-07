@@ -1663,7 +1663,8 @@ label {
   opacity: 0;
   transform: translate(-50%, -50%);
   transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
-  mix-blend-mode: difference;
+  // mix-blend-mode: difference;
+  color:$accent;
 }
 
 #cursor-dot {
