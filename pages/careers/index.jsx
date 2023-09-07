@@ -25,11 +25,21 @@ export default function Career() {
           bgSrc="images/service_hero_bg.jpeg"
           pageLinkText="Careers"
         />
-        <Spacing lg="150" md="80" />
+        <Spacing lg="100" md="80" />
+        
         <Div className="cs-shape_wrap_4">
+
           <Div className="cs-shape_4"></Div>
           <Div className="cs-shape_4"></Div>
           <Div className="container">
+          <SectionHeading
+                  title="Opening Positions"
+                  subtitle="We support the growth of tomorrow’s bright minds in this field by building a bridge between our organisation and the technical universities through Internship & Graduates programmes, student competitions and dedicated events"
+                  btnText=""
+                  btnLink="/service"
+                  variant={"cs-style3"}
+                />
+                <Spacing lg="50" md="80" />
           <JobList/>
           </Div>
         </Div>
@@ -40,7 +50,8 @@ export default function Career() {
             title="Let’s disscuse make <br />something <i>cool</i> together"
             btnText="Apply For Meeting"
             btnLink="/contact"
-            bgSrc="/images/cta_bg.jpeg"
+            // bgSrc="/images/cta_bg.jpeg"
+            bgSrc="/images/cta/a.png"
           />
         </Div>
       </Layout>

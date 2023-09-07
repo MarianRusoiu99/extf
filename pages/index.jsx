@@ -278,7 +278,8 @@ export default function Home() {
             title="Let’s disscuse make <br />something <i>cool</i> together"
             btnText="Apply For Meeting"
             btnLink="/contact"
-            bgSrc="/images/cta/a.png"
+            // bgSrc="/images/cta/a.png"
+            bgSrc="/images/cta_bg.jpeg"
           />
         </Div>
         {/* End CTA Section */}
