@@ -8,6 +8,7 @@ import PageHeading from '../../components/PageHeading';
 import SectionHeading from '../../components/SectionHeading';
 import Spacing from '../../components/Spacing';
 import ModalImage from 'react-modal-image';
+import ServicesDragable from '../../components/ServicesDragable';
 
 export default function CaseStudyDetails() {
   return (
@@ -62,6 +63,19 @@ export default function CaseStudyDetails() {
             amet, consectetur
           </p>
           <Spacing lg="65" md="45" />
+          
+{/* {Dragable Stack section} */}
+
+<Div>
+<SectionHeading
+            title="TECH Stack"
+            subtitle=""
+            variant="cs-style1 text-center"
+          />
+<ServicesDragable />
+<Spacing lg="100" md="80" />
+</Div>
+
           <Div className="row">
             <Div className="col-sm-6">
             <ModalImage
@@ -88,6 +102,7 @@ export default function CaseStudyDetails() {
               <Spacing lg="25" md="25" />
             </Div>
           </Div>
+
           <Spacing lg="125" md="55" />
         </Div>
         <Div className="cs-gradient_bg_1 cs-shape_wrap_6">

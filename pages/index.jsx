@@ -17,6 +17,8 @@ import Spacing from '../components/Spacing';
 import VideoModal from '../components/VideoModal';
 import Hero5 from '../components/Hero/Hero5';
 import Button from '../components/Button';
+import ServicesDragable from '../components/ServicesDragable';
+
 
 export default function Home() {
   // Hero Social Linksasd asd asdsdsad as das
@@ -105,50 +107,7 @@ export default function Home() {
                 />
                 <Spacing lg="90" md="45" />
               </Div>
-              <Div className="col-xl-8">
-                <Div className="row">
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="UI/UX design"
-                      // link="/service/service-details"
-                      src="/images/services/ux-design.jpg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Web Development"
-                      // link="/service/service-details"
-                      src="/images/services/webdev.jpg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Mobile Development"
-                      // link="/service/service-details"
-                      src="/images/services/mobile.jpg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                  <Div className="col-lg-3 col-sm-6">
-                    <Card
-                      title="Consultancy"
-                      // link="/service/service-details"
-                      src="/images/services/consultancy.jpg"
-                      alt="Service"
-                    />
-                    <Spacing lg="0" md="30" />
-                  </Div>
-                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                </Div>
-              </Div>
+              <ServicesDragable/>
             </Div>
           </Div>
         </Div>

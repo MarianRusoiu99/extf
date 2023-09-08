@@ -1,6 +1,20 @@
 /*--------------------------------------------------------------
   5. Slider
 ----------------------------------------------------------------*/
+.square{
+  aspect-ratio: 1;
+  object-fit:cover;
+}
+.transparent{
+  opacity:0.7;
+}
+.offsetChild{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
 .cs-slider_heading.cs-style1 {
   display: flex;
   justify-content: space-between;
