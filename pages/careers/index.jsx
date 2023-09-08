@@ -37,7 +37,7 @@ export default function Career() {
                   subtitle="We support the growth of tomorrow’s bright minds in this field by building a bridge between our organisation and the technical universities through Internship & Graduates programmes, student competitions and dedicated events"
                   btnText=""
                   btnLink="/service"
-                  variant={"cs-style3"}
+                  variant={"cs-style3 text-center"}
                 />
                 <Spacing lg="50" md="80" />
           <JobList/>

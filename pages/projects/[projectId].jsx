@@ -7,6 +7,7 @@ import Layout from '../../components/Layout';
 import PageHeading from '../../components/PageHeading';
 import SectionHeading from '../../components/SectionHeading';
 import Spacing from '../../components/Spacing';
+import ModalImage from 'react-modal-image';
 
 export default function CaseStudyDetails() {
   return (
@@ -30,11 +31,18 @@ export default function CaseStudyDetails() {
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
+          {/* <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_15"
+            alt="Thumb" /> */}
           <img
             src="/images/projects/outsnapped.webp"
             alt="Thumb"
             className="w-100 cs-radius_15"
           />
+          
           <Spacing lg="140" md="80" />
           <h2 className="cs-font_38 text-center">Case Study Overview</h2>
           <Spacing lg="60" md="45" />
@@ -56,11 +64,19 @@ export default function CaseStudyDetails() {
           <Spacing lg="65" md="45" />
           <Div className="row">
             <Div className="col-sm-6">
-              <img
+            <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
                 className="w-100 cs-radius_5"
-              />
+              /> */}
               <Spacing lg="25" md="25" />
             </Div>
             <Div className="col-sm-6">
