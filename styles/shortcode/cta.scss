@@ -1,3 +1,14 @@
+.tagcloud--item{
+  font-size: 30px;
+  color: white;
+}
+
+.tagcloud--item:hover{
+
+  color: $accent;
+}
+
+
 .cs-cta.cs-style1 {
   padding: 90px 30px;
   border-radius: 15px;

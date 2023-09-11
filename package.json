@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@frank-mayer/react-tag-cloud": "^1.2.1",
     "@iconify/react": "^4.1.0",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.16.4",

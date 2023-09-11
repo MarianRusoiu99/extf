@@ -9,6 +9,7 @@ import SectionHeading from '../../components/SectionHeading';
 import Spacing from '../../components/Spacing';
 import ModalImage from 'react-modal-image';
 import ServicesDragable from '../../components/ServicesDragable';
+import CloudTagTehnologies from "../../components/CloudTagTehnologies";
 
 export default function CaseStudyDetails() {
   return (
@@ -71,12 +72,26 @@ export default function CaseStudyDetails() {
             title="TECH Stack"
             subtitle=""
             variant="cs-style1 text-center"
-          />
+
+/>
+<Spacing lg="40" md="80" />
 <ServicesDragable />
 <Spacing lg="100" md="80" />
+
+<div style={{width:"100%", display:"flex" ,  justifyContent:"center"}}>
+<CloudTagTehnologies/>
+
+</div>
 </Div>
 
           <Div className="row">
+          <SectionHeading
+            title="The Results"
+            subtitle=""
+            variant="cs-style1 text-center"
+/>
+<Spacing lg="40" md="80" />
+  
             <Div className="col-sm-6">
             <ModalImage
           small="/images/projects/outsnapped.webp"
@@ -92,20 +107,85 @@ export default function CaseStudyDetails() {
                 className="w-100 cs-radius_5"
               /> */}
               <Spacing lg="25" md="25" />
-            </Div>
-            <Div className="col-sm-6">
-              <img
+              <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
                 className="w-100 cs-radius_5"
-              />
+              /> */}
+              <Spacing lg="25" md="25" />
+              <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
+                src="/images/projects/outsnapped.webp"
+                alt="Thumb"
+                className="w-100 cs-radius_5"
+              /> */}
+              <Spacing lg="25" md="25" />
+              
+            </Div>
+            <Div className="col-sm-6">
+            <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
+                src="/images/projects/outsnapped.webp"
+                alt="Thumb"
+                className="w-100 cs-radius_5"
+              /> */}
+              <Spacing lg="25" md="25" />
+              <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
+                src="/images/projects/outsnapped.webp"
+                alt="Thumb"
+                className="w-100 cs-radius_5"
+              /> */}
+              <Spacing lg="25" md="25" />
+              <ModalImage
+          small="/images/projects/outsnapped.webp"
+            large="/images/projects/outsnapped.webp"
+            medium="/images/projects/outsnapped.webp"
+            className="w-100 cs-radius_5"
+            hideZoom={true}
+            hideDownload={true}
+            alt="Thumb" />
+              {/* <img
+                src="/images/projects/outsnapped.webp"
+                alt="Thumb"
+                className="w-100 cs-radius_5"
+              /> */}
               <Spacing lg="25" md="25" />
             </Div>
           </Div>
 
           <Spacing lg="125" md="55" />
         </Div>
-        <Div className="cs-gradient_bg_1 cs-shape_wrap_6">
+        {/* <Div className="cs-gradient_bg_1 cs-shape_wrap_6">
           <Div className="cs-shape_2"></Div>
           <Div className="cs-shape_2"></Div>
           <Div className="container">
@@ -174,7 +254,8 @@ export default function CaseStudyDetails() {
             <Spacing lg="150" md="80" />
           </Div>
         </Div>
-        <Spacing lg="140" md="80" />
+        */}
+        <Spacing lg="10" md="80" />
         <Div className="container text-center">
           <Div className="row col-lg-10 offset-lg-1">
             <h2 className="cs-font_38 cs-m0">Result of The Case Study</h2>
@@ -195,17 +276,28 @@ export default function CaseStudyDetails() {
               nesciunt. Ipsum quia dolor sit amet, consectetur
             </p>
           </Div>
-        </Div>
-        <Spacing lg="145" md="80" />
+        </Div> 
+        <Spacing lg="55" md="80" />
         {/* Start CTA Section */}
-        <Div className="container">
+        {/* <Div className="container">
           <Cta
             title="Let’s disscuse make <br />something <i>cool</i> together"
             btnText="Apply For Meeting"
             btnLink="/contact"
             bgSrc="/images/cta_bg.jpeg"
           />
+        </Div> */}
+        <Div className="container">
+          <Cta
+            title="See the final result"
+            btnText="Link to the site"
+            btnLink="https://outsnappedsstg.wpengine.com/"
+            bgSrc="/images/cta_bg.jpeg"
+            variant={"text-black"}
+          />
         </Div>
+
+
         {/* End CTA Section */}
       </Layout>
     </>
