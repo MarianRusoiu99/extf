@@ -18,6 +18,7 @@ import VideoModal from '../components/VideoModal';
 import Hero5 from '../components/Hero/Hero5';
 import Button from '../components/Button';
 import ServicesDragable from '../components/ServicesDragable';
+import ServiceList from '../components/ServiceList';
 
 
 export default function Home() {
@@ -107,7 +108,53 @@ export default function Home() {
                 />
                 <Spacing lg="90" md="45" />
               </Div>
-              <ServicesDragable/>
+              {/* <ServiceList/> */}
+              {/* <ServicesDragable/> */}
+              <Div className="col-xl-8">
+                <Div className="row">
+                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                  <Div className="col-lg-3 col-sm-6">
+                    <Card
+                      title="UI/UX design"
+                     
+                      src="/images/services/ux-design.jpg"
+                      alt="Service"
+                    />
+                    <Spacing lg="0" md="30" />
+                  </Div>
+                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                  <Div className="col-lg-3 col-sm-6">
+                    <Card
+                      title="Web Development"
+                    
+                      src="/images/services/webdev.jpg"
+                      alt="Service"
+                    />
+                    <Spacing lg="0" md="30" />
+                  </Div>
+                  <Div className="col-lg-3 col-sm-6">
+                    <Card
+                      title="Mobile Development"
+                   
+                      src="/images/services/mobile.jpg"
+                      alt="Service"
+                    />
+                    <Spacing lg="0" md="30" />
+                  </Div>
+                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                  <Div className="col-lg-3 col-sm-6">
+                    <Card
+                      title="Consultancy"
+                    
+                      src="/images/services/consultancy.jpg"
+                      alt="Service"
+                    />
+                    <Spacing lg="0" md="30" />
+                  </Div>
+                  <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
+                </Div>
+              </Div>
+
             </Div>
           </Div>
         </Div>
@@ -127,11 +174,11 @@ export default function Home() {
           <PortfolioSlider />
           <Spacing lg="50" md="50" />
           <div className='widthCenter'>
-          
-          <Button btnLink = "/projects" btnText={"See all projects"} />
-          <Spacing lg="150" md="50" />
+
+            <Button btnLink="/projects" btnText={"See all projects"} />
+            <Spacing lg="150" md="50" />
           </div>
-          
+
         </Div>
         {/* End Portfolio Section */}
 

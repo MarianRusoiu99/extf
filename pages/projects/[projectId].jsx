@@ -44,7 +44,7 @@ export default function CaseStudyDetails() {
             alt="Thumb"
             className="w-100 cs-radius_15"
           />
-          
+
           <Spacing lg="140" md="80" />
           <h2 className="cs-font_38 text-center">Case Study Overview</h2>
           <Spacing lg="60" md="45" />
@@ -64,43 +64,57 @@ export default function CaseStudyDetails() {
             amet, consectetur
           </p>
           <Spacing lg="65" md="45" />
-          
-{/* {Dragable Stack section} */}
 
-<Div>
-<SectionHeading
-            title="TECH Stack"
-            subtitle=""
-            variant="cs-style1 text-center"
+          {/* {Dragable Stack section} */}
 
-/>
-<Spacing lg="40" md="80" />
-<ServicesDragable />
-<Spacing lg="100" md="80" />
+          <Div>
+            {/* <SectionHeading
+              title="TECH Stack"
+              subtitle=""
+              variant="cs-style1 text-center"
 
-<div style={{width:"100%", display:"flex" ,  justifyContent:"center"}}>
-<CloudTagTehnologies/>
+            />
+            <Spacing lg="40" md="80" /> */}
+            {/* <ServicesDragable /> */}
+            {/* <Spacing lg="100" md="80" /> */}
+            <Spacing lg="100" md="80" />
+            <div className='cs-shape_wrap_1 cs-hero cs-style3 cs-bg cs-fixed_bg ' style={{padding:"0px;",position:"relative" ,width: "101vw", display: "flex", justifyContent: "center", flexDirection:"column", alignItems:"center" , left: " -24%;" }}>
+            <Spacing lg="100" md="80" />
+            <SectionHeading
+              title="TECH Stack"
+              subtitle=""
+              variant="cs-style1 text-center"
 
-</div>
-</Div>
+            />
+            <Spacing lg="100" md="80" />
+            <Div className="cs-shape_1" />
+      <Div className="cs-shape_1" />
+      <Div className="cs-shape_1" />
+      <Div className="cs-circle_1" />
+      <Div className="cs-circle_2" />
+              <CloudTagTehnologies />
+              <Spacing lg="100" md="80" />
+            </div>
+          </Div>
 
           <Div className="row">
-          <SectionHeading
-            title="The Results"
-            subtitle=""
-            variant="cs-style1 text-center"
-/>
-<Spacing lg="40" md="80" />
-  
+          <Spacing lg="100" md="80" />
+            <SectionHeading
+              title="The Results"
+              subtitle=""
+              variant="cs-style1 text-center"
+            />
+            <Spacing lg="100" md="80" />
+
             <Div className="col-sm-6">
-            <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+              <ModalImage
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
@@ -108,13 +122,13 @@ export default function CaseStudyDetails() {
               /> */}
               <Spacing lg="25" md="25" />
               <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
@@ -122,30 +136,30 @@ export default function CaseStudyDetails() {
               /> */}
               <Spacing lg="25" md="25" />
               <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
                 className="w-100 cs-radius_5"
               /> */}
               <Spacing lg="25" md="25" />
-              
+
             </Div>
             <Div className="col-sm-6">
-            <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+              <ModalImage
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
@@ -153,13 +167,13 @@ export default function CaseStudyDetails() {
               /> */}
               <Spacing lg="25" md="25" />
               <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
@@ -167,13 +181,13 @@ export default function CaseStudyDetails() {
               /> */}
               <Spacing lg="25" md="25" />
               <ModalImage
-          small="/images/projects/outsnapped.webp"
-            large="/images/projects/outsnapped.webp"
-            medium="/images/projects/outsnapped.webp"
-            className="w-100 cs-radius_5"
-            hideZoom={true}
-            hideDownload={true}
-            alt="Thumb" />
+                small="/images/projects/outsnapped.webp"
+                large="/images/projects/outsnapped.webp"
+                medium="/images/projects/outsnapped.webp"
+                className="w-100 cs-radius_5"
+                hideZoom={true}
+                hideDownload={true}
+                alt="Thumb" />
               {/* <img
                 src="/images/projects/outsnapped.webp"
                 alt="Thumb"
@@ -255,7 +269,7 @@ export default function CaseStudyDetails() {
           </Div>
         </Div>
         */}
-        <Spacing lg="10" md="80" />
+        {/* <Spacing lg="10" md="80" />
         <Div className="container text-center">
           <Div className="row col-lg-10 offset-lg-1">
             <h2 className="cs-font_38 cs-m0">Result of The Case Study</h2>
@@ -276,7 +290,7 @@ export default function CaseStudyDetails() {
               nesciunt. Ipsum quia dolor sit amet, consectetur
             </p>
           </Div>
-        </Div> 
+        </Div>  */}
         <Spacing lg="55" md="80" />
         {/* Start CTA Section */}
         {/* <Div className="container">
@@ -292,8 +306,9 @@ export default function CaseStudyDetails() {
             title="See the final result"
             btnText="Link to the site"
             btnLink="https://outsnappedsstg.wpengine.com/"
-            bgSrc="/images/cta_bg.jpeg"
-            variant={"text-black"}
+            // bgSrc="/images/cta_bg.jpeg"
+            bgSrc="/images/cta/cta_bg.png"
+            variant={"cs-shape_1_white"}
           />
         </Div>
 

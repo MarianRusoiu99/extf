@@ -1,5 +1,6 @@
 import React from "react";
 import { TagCloud } from "@frank-mayer/react-tag-cloud";
+import Div from "../Div";
 // same as: import TagCloud from "@frank-mayer/react-tag-cloud"
 function CloudTagTehnologies() {
   return (
@@ -7,10 +8,11 @@ function CloudTagTehnologies() {
 
         options={ TagCloudOptions => ({
             radius: Math.min(500, window.innerWidth, window.innerHeight) / 1.5,
-            maxSpeed: "medium",
+            maxSpeed: "slow",
         })}
         onClickOptions={{ passive: true }}
     >
+      {/* <Div></Div> */}
         {[
             "VSCode",
             "TypeScript",

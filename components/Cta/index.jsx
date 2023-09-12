@@ -12,9 +12,9 @@ export default function Cta({ title, btnText, btnLink, bgSrc, variant }) {
       }`}
       style={{ backgroundImage: `url(${bgSrc})` }}
     >
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
+      <Div className={`cs-shape_1 ${variant}`}/>
+      <Div className={`cs-shape_1 ${variant}`}/>
+      <Div className={`cs-shape_1 ${variant}`} />
       <Div className="cs-cta_in">
         <h2 className={`cs-cta_title cs-semi_bold cs-m0 ${variant}`}>{parse(title)}</h2>
         {btnText && (
