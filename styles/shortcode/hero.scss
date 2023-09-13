@@ -289,6 +289,23 @@
     animation: 9s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running
       light-mode;
   }
+  .cs-circle_3 {
+    height: 626px;
+    width: 626px;
+    border-radius: 50%;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(24, 148, 145, 0.8)0%,
+     /* rgba(255, 74, 23, 0.8) 0%, */
+      rgba(255, 74, 23, 0) 100%
+    );
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    animation: 9s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running
+      light-mode;
+  }
 }
 .cs-hero.cs-style4,
 .cs-hero.cs-style5 {

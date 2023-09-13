@@ -19,6 +19,7 @@ import Hero5 from '../components/Hero/Hero5';
 import Button from '../components/Button';
 import ServicesDragable from '../components/ServicesDragable';
 import ServiceList from '../components/ServiceList';
+import MovingText2 from '../components/MovingText/MovingText2';
 
 
 export default function Home() {
@@ -52,6 +53,111 @@ export default function Home() {
       title: 'Digital products',
       factNumber: '550',
     },
+  ];
+//C#, PHP, Python, SQL, Javascript, HTML & CSS
+
+  const serviceData1 = [
+    {
+      title: 'HTML & CSS',
+      
+    },
+    {
+      title: 'PHP',
+      
+    },
+    {
+      title: 'Python',
+      
+    },
+    {
+      title: 'SQL',
+      
+    },
+    {
+      title: 'Javascript',
+      
+    },
+    {
+      title: 'C#',
+      
+    },
+  ];
+
+  //ASP.NET, .NET Framework, .NET Core, Xamarin, jQuery, AngularJS, Angular X, React & Redux, VueJS & Vuex
+  const serviceData2 = [
+    {
+      title: 'VueJS & Vuex',
+      
+    },
+    {
+      title: 'ASP.NET',
+      
+    },
+    {
+      title: '.NET Framework',
+      
+    },
+    {
+      title: '.NET Core',
+      
+    },
+    {
+      title: 'Xamarin',
+      
+    },
+    {
+      title: 'jQuery',
+      
+    },
+    {
+      title: 'AngularJS',
+      
+    },{
+      title: 'Angular X',
+      
+    },{
+      title: 'React & Redux',
+      
+    },
+    {
+      title: 'VueJS & Vuex',
+      
+    }
+  ];
+
+  //Wordpress, WooCommerce, Webflow, Elementor, Divi, Oxygen, Beaver, Guttenberg
+  const serviceData3 = [
+    {
+      title: 'Wordpress',
+      
+    },
+    {
+      title: 'WooCommerce',
+      
+    },
+    {
+      title: 'Webflow',
+      
+    },
+    {
+      title: 'Elementor',
+      
+    },
+    {
+      title: 'Divi',
+      
+    },
+    {
+      title: 'Oxygen',
+      
+    },
+    {
+      title: 'Beaver',
+      
+    },{
+      title: 'Guttenberg',
+      
+    }
   ];
 
   return (
@@ -266,10 +372,33 @@ export default function Home() {
         {/* End Blog Section */}
 
         {/* Start MovingText Section */}
-        <Spacing lg="125" md="70" />
+        {/* <Spacing lg="125" md="70" />
         <MovingText text="C# - PHP - Python - SQL - Javascript - HTML & CSS - ASP.NET - .NET Framework - .NET Core - Xamarin - jQuery - AngularJS - Angular X - React & Redux - VueJS & Vuex" />
-        <Spacing lg="105" md="70" />
+        <Spacing lg="105" md="70" /> */}
         {/* End MovingText Section */}
+
+{/*  */}
+        <Spacing lg="100" md="80" />
+        <Div className="container">
+          <SectionHeading
+            title="What we provide"
+            subtitle=""
+            variant="cs-style1 text-center"
+          />
+          <Spacing lg="65" md="45" />
+        </Div>
+        {/* End Services Section */}
+
+        {/* Start Moving Text Section */}
+        <div style={{transform:"rotate(-3deg);"}}>
+        <MovingText2 data={serviceData1} />
+        <Spacing lg="20" md="10" />
+        <MovingText2 reverseDirection data={serviceData2} />
+        <Spacing lg="20" md="10" />
+        <MovingText2 data={serviceData3} />
+        </div>
+        {/* End Moving Text Section */}
+        <Spacing lg="150" md="10" />
 
         {/* Start LogoList Section */}
         <Div className="container">

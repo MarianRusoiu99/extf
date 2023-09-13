@@ -13,11 +13,17 @@ export default function MovingText2({ data, reverseDirection }) {
           }
         >
           {data.map((item, index) => (
+             (item.href) ?
             <>
               <Link key={index} href={item.href}>
                 {item.title}
               </Link>
               -
+            </> : <>
+            <Div key={index}>
+            {item.title}
+            </Div>
+            -
             </>
           ))}
         </Div>
@@ -29,11 +35,17 @@ export default function MovingText2({ data, reverseDirection }) {
           }
         >
           {data.map((item, index) => (
+            (item.href) ?
             <>
               <Link key={index} href={item.href}>
                 {item.title}
               </Link>
               -
+            </> : <>
+            <Div key={index}>
+            {item.title}
+            </Div>
+            -
             </>
           ))}
         </Div>

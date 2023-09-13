@@ -77,7 +77,7 @@ export default function CaseStudyDetails() {
             <Spacing lg="40" md="80" /> */}
             {/* <ServicesDragable /> */}
             {/* <Spacing lg="100" md="80" /> */}
-            <Spacing lg="100" md="80" />
+            {/* <Spacing lg="100" md="80" /> */}
             <div className='cs-shape_wrap_1 cs-hero cs-style3 cs-bg cs-fixed_bg ' style={{padding:"0px;" ,width: "101vw", display: "flex", justifyContent: "center", flexDirection:"column", alignItems:"center" , left: " -24%;" }}>
             {/* <Spacing lg="100" md="80" /> */}
             <div style={{position:"absolute"}}>
@@ -93,7 +93,7 @@ export default function CaseStudyDetails() {
       <Div className="cs-shape_1" />
       <Div className="cs-shape_1" />
       <Div className="cs-circle_1" />
-      <Div className="cs-circle_2" />
+      <Div className="cs-circle_3" />
               <CloudTagTehnologies />
               {/* <Spacing lg="100" md="80" /> */}
             </div>
