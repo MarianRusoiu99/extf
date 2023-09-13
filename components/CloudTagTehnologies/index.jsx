@@ -7,7 +7,7 @@ function CloudTagTehnologies() {
     <TagCloud
 
         options={ TagCloudOptions => ({
-            radius: Math.min(500, window.innerWidth, window.innerHeight) / 1.5,
+            radius: Math.min(1000, window.innerWidth, window.innerHeight) / 1.5,
             maxSpeed: "slow",
         })}
         onClickOptions={{ passive: true }}
