@@ -41,7 +41,7 @@ export default function Career() {
           pageLinkText="Estimate a Project"
         />
         {/* <Spacing lg="150" md="80" /> */}
-        <Spacing lg="150" md="80" />
+        {/* <Spacing lg="150" md="80" />
         <Div id="service">
           <Div className="container">
             <Div className="row">
@@ -101,9 +101,9 @@ export default function Career() {
             </Div>
           </Div>
         </Div>
-        <Spacing lg="100" md="80" /> 
+        <Spacing lg="100" md="80" />  */}
 {/* End of Device for your project */}
-        <Spacing lg="100" md="80" />
+        {/* <Spacing lg="100" md="80" />
         <Div id="service">
           <Div className="container">
             <Div className="row">
@@ -162,7 +162,7 @@ export default function Career() {
               </Div>
             </Div>
           </Div>
-        </Div>
+        </Div> */}
 
         {/* Form start */}
            
@@ -172,7 +172,7 @@ export default function Career() {
           <Div className="row">
             <Div className="col-lg-6">
               <SectionHeading
-                title="GET YOUR DREAM JOB"
+                title="LET’S LAUNCH YOUR PROJECT"
                 subtitle="Getting Touch"
               />
               <Spacing lg="55" md="30" />
