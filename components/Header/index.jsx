@@ -57,7 +57,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="photography-agency"
+                              href="/photography-agency"
                               onClick={() => setMobileToggle(false)}
                             >
                               Photography Agency
@@ -65,7 +65,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="creative-portfolio"
+                              href="/creative-portfolio"
                               onClick={() => setMobileToggle(false)}
                             >
                               Creative Portfolio
@@ -73,7 +73,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="digital-agency"
+                              href="/digital-agency"
                               onClick={() => setMobileToggle(false)}
                             >
                               Digital Agency
@@ -81,7 +81,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="marketing-agency"
+                              href="/marketing-agency"
                               onClick={() => setMobileToggle(false)}
                             >
                               Marketing Agency
@@ -89,7 +89,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="showcase-portfolio"
+                              href="/showcase-portfolio"
                               onClick={() => setMobileToggle(false)}
                             >
                               Showcase Portfolio
@@ -97,7 +97,7 @@ export default function Header({ variant }) {
                           </li>
                           <li>
                             <Link
-                              href="case-study-showcase"
+                              href="/case-study-showcase"
                               onClick={() => setMobileToggle(false)}
                             >
                               Case Study Showcase
@@ -107,7 +107,7 @@ export default function Header({ variant }) {
                       </DropDown>
                     </li>
                     <li>
-                      <Link href="about" onClick={() => setMobileToggle(false)}>
+                      <Link href="/about" onClick={() => setMobileToggle(false)}>
                         About
                       </Link>
                     </li>
@@ -117,7 +117,7 @@ export default function Header({ variant }) {
                       </Link>
                     </li> */}
                     <li>
-                      <Link href="careers" onClick={() => setMobileToggle(false)}>
+                      <Link href="/careers" onClick={() => setMobileToggle(false)}>
                         Careers
                       </Link>
                     </li>
@@ -178,12 +178,12 @@ export default function Header({ variant }) {
                       </DropDown>
                     </li> */}
                     <li>
-                      <Link href="projects" onClick={() => setMobileToggle(false)}>
+                      <Link href="/projects" onClick={() => setMobileToggle(false)}>
                         Projects
                       </Link>
                     </li>
                     <li>
-                      <Link href="contact" onClick={() => setMobileToggle(false)}>
+                      <Link href="/contact" onClick={() => setMobileToggle(false)}>
                         Contact
                       </Link>
                     </li>

@@ -62,9 +62,9 @@ export default function PortfolioSlider() {
       {portfolioData.map((item, index)=> (
         <Div key={index}>
           <Portfolio 
-            title={item.title} 
-            subtitle={item.subtitle}
-            href={item.href}
+            // title={item.title} 
+            // subtitle={item.subtitle}
+            // href={item.href}
             src={item.src}
           />
         </Div>

@@ -378,7 +378,7 @@ export default function Home() {
         {/* End MovingText Section */}
 
 {/*  */}
-        <Spacing lg="100" md="80" />
+        {/* <Spacing lg="100" md="80" />
         <Div className="container">
           <SectionHeading
             title="What we provide"
@@ -386,22 +386,22 @@ export default function Home() {
             variant="cs-style1 text-center"
           />
           <Spacing lg="65" md="45" />
-        </Div>
+        </Div> */}
         {/* End Services Section */}
 
         {/* Start Moving Text Section */}
-        <div style={{transform:"rotate(-3deg);"}}>
+        {/* <div style={{transform:"rotate(-3deg);"}}>
         <MovingText2 data={serviceData1} />
         <Spacing lg="20" md="10" />
         <MovingText2 reverseDirection data={serviceData2} />
         <Spacing lg="20" md="10" />
         <MovingText2 data={serviceData3} />
-        </div>
+        </div> */}
         {/* End Moving Text Section */}
         <Spacing lg="150" md="10" />
 
         {/* Start LogoList Section */}
-        <Div className="container">
+        <Div style={{maxWidth:"100%"}}>
           <LogoList />
         </Div>
         <Spacing lg="150" md="80" />
