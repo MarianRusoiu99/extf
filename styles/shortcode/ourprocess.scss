@@ -175,7 +175,7 @@
     height: 0;
     width: 0;
     border: 7px solid transparent;
-    border-right: 7px solid #333C42;
+    border-right: 7px solid $black;
   }
   
   @media only screen and (min-width: 768px) {
@@ -204,7 +204,7 @@
       top: 24px;
       left: 100%;
       border-color: transparent;
-      border-left-color: #333C42;
+      border-left-color: $black;
     }
     .cd-timeline-content .cd-date {
       position: absolute;
@@ -222,7 +222,7 @@
       left: auto;
       right: 100%;
       border-color: transparent;
-      border-right-color: #333C42;
+      border-right-color: $black;
     }
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
       float: right;
