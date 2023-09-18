@@ -121,6 +121,11 @@ export default function Header({ variant }) {
                         Careers
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/our-process" onClick={() => setMobileToggle(false)}>
+                        Our Process
+                      </Link>
+                    </li>
                     {/* <li className="menu-item-has-children">
                       <Link
                         href="/service"
